@@ -1,0 +1,56 @@
+.collection
+  margin-bottom: 145px
+  &-wrapper
+    display: flex
+    padding: 0 10px
+    flex-wrap: wrap
+  &__photos
+    display: grid
+    grid-template-columns: repeat(2,minmax(290px, 320px))
+    grid-template-rows: repeat(2,minmax(97px,230px))
+    grid-gap: 30px
+    margin-right: 58px
+    object-fit: cover
+    &--image
+      &--main
+        object-fit: cover
+        border-radius: 8px
+        grid-row: span 2
+        width: 100%
+        height: 100%
+      &--secondary
+        width: 100%
+        grid-row: span 1
+        object-fit: cover
+        border-radius: 8px
+        grid-column: 2
+        height: 100%
+  &-info
+    padding-top: 10px
+    max-width: 392px
+    &__title
+      margin: 0
+      color: $title-color
+      font-family: HK Grotesk
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: 60px
+      letter-spacing: 0.2px
+      margin-bottom: 23px
+    &__subtitle
+      color: $subtitle-color
+      margin: 0
+      font-weight: normal
+      font-size: 20px
+      line-height: 36px
+      margin-bottom: 42px
+    &__link
+      color: $blue
+      font-weight: bold
+      font-size: 18px
+      line-height: 25px
+      text-decoration: none
+      &--image
+        margin-left: 23px
+

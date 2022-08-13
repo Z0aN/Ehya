@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,gBAAS,AAAC,CACR,UAAU,CAAE,iBAAiB,CAAG",
+    "sources": [
+        "../sass/blocks/stories.sass"
+    ],
+    "names": [],
+    "file": "stories.css"
+}

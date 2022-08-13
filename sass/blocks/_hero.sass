@@ -1,0 +1,86 @@
+.hero
+  margin-bottom: 109px
+  &-wrapper
+    padding: 62px 572px 54px 107px
+    background-image: url(../img/hero.jpg)
+    border-radius: 8px
+    background-repeat: no-repeat
+  &__flash
+    display: inline-block
+    background-color: rgba(54, 179, 126, 0.15)
+    padding: 6px 16px
+    border-radius: 25px
+    color: $green
+    font-weight: 600
+    font-size: 14px
+    line-height: 20px
+    margin-bottom: 28px
+  &__title
+    max-width: 474px
+    margin: 0
+    margin-bottom: 28px
+    color: $title-color
+    font-family: HK Grotesk
+    font-style: normal
+    font-weight: bold
+    font-size: 56px
+    line-height: 68px
+    letter-spacing: 0.2px
+  &__subtitle
+    margin: 0
+    margin-bottom: 52px
+    max-width: 613px
+    color: $subtitle-color
+    font-weight: normal
+    font-size: 20px
+    line-height: 36px
+  &__button
+    background-color: $title-color
+    color: $light
+    padding: 16px 40px
+    font-weight: bold
+    font-size: 18px
+    line-height: 25px
+    border-radius: 7px
+    margin-bottom: 48px
+    &:hover
+      background-color: $blue
+      transition: 0.2s
+  &__bottom
+    display: flex
+    flex-direction: row
+  &-indicator
+    display: flex
+    align-items: center
+    margin-right: 30px
+    &__icon
+      width: 17px
+      height: 17px
+    &__image
+      position: relative
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-right: 8px
+      border: 1px solid rgba(21, 101, 216, 0.2)
+      padding: 7px
+      width: 36px
+      height: 36px
+      border-radius: 15px
+      z-index: 1
+      &::before
+        content: ""
+        display: block
+        border: 1px dashed rgba(24, 59, 86, 0.3)
+        position: absolute
+        z-index: 10
+        height: 22px
+        width: 22px
+    &__text
+      font-family: HK Grotesk
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 20px
+      letter-spacing: 0.2px
+      color: $title-color

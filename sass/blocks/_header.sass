@@ -1,0 +1,68 @@
+.header
+  margin-bottom: 36px
+  &-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 26px 70px
+.navbar
+  display: flex
+  align-items: center
+  &__ul
+    display: flex
+    list-style: none
+  &__link
+    text-decoration: none
+    color: $title-color
+    margin-right: 40px
+    font-weight: 600
+    font-size: 16px
+    line-height: 22px
+    &:hover
+      text-decoration: underline
+      color: $blue
+      transition: 0.2s
+  &__button
+    background-color: $light
+    border: 2px solid $blue
+    color: $blue
+    border-radius: 8px
+    padding: 13px 24px
+    font-weight: bold
+    font-size: 16px
+    line-height: 22px
+    &:hover
+      background-color: $blue
+      color: $light
+      transition: 0.2s
+  &-mobile
+    display: none
+    position: relative
+    width: 22px
+    &__line
+      position: absolute
+      height: 2px
+      width: 22px
+      background-color: $title-color
+      border-radius: 1px
+      &::after, &::before
+        content: ""
+        transition: 0.3s
+        position: absolute
+        height: 2px
+        width: 22px
+        border-radius: 1px
+        background-color: $title-color
+      &::before
+        transform: translateY(-5.5px)
+      &::after
+        transform: translateY(5.5px)
+    &--active
+      & .navbar-mobile__line::before
+        transform: rotate(45deg)
+      & .navbar-mobile__line::after
+        transform: rotate(-45deg)
+      & .navbar-mobile__line
+        width: 0
+
+        

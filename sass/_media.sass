@@ -1,0 +1,589 @@
+@media  ( max-width: 1200px )
+  .reviews
+    &-slider
+      max-width: 800px
+      max-height: 390px
+@media ( max-width: 992px )
+  .container
+    max-width: 952px
+  .header
+    margin-bottom: 30px
+  .hero
+    &-wrapper
+      padding: 62px 371px 54px 70px
+      background-position: 64% 20%
+      background-size: cover
+  .collection
+    &__photos
+      margin-bottom: 30px
+      margin-right: 0
+      grid-template-columns: repeat(2,minmax(97px,390px))
+    &-info
+      max-width: 100%
+  .trending
+    &-info
+      max-width: 890px
+      margin: auto
+      margin-bottom: 40px
+    &-store
+      margin: auto
+      max-width: 890px
+  .card
+    margin-right: 50px
+    &:nth-child(4n)
+      margin-right: 50px
+    &:nth-child(3n)
+      margin-right: 0
+  .stories
+    &-wrapper
+      padding-right: 10px
+      padding-left: 10px
+    &-card
+      &__photo
+        width: 270px
+  .subscribe
+    &-wrapper
+      flex-direction: column
+      text-align: center
+    &-info
+      margin-right: 20px
+      &__subtitle
+        margin-bottom: 56px   
+@media ( max-width: 768px )
+  .container
+    max-width: 728px
+  .header
+    &-wrapper
+      position: relative
+      padding: 18px 40px
+  .navbar
+    display: none
+    &-mobile
+      display: block
+      &--active
+        position: fixed
+        right: 6.87%
+    &__ul
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: center
+      padding-bottom: 0
+    &__link
+      margin-right: 0
+      font-weight: 600
+      font-size: 18px
+      line-height: 22px
+      &:hover
+        text-decoration: none
+        color: $title-color
+    &__item
+      margin-bottom: 30px
+    &__button
+      margin-bottom: 36px
+      padding: 12px 86px
+      &:hover
+        background-color: $light
+        color: $blue
+    &--visible
+      display: flex
+      flex-direction: column
+      background-color: $light
+      width: 100%
+      position: fixed
+      top: 10px
+      left: 7px
+      width: 98%
+      box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16)
+  .hero
+    margin-bottom: 80px
+    &-wrapper
+      padding: 36px 258px 36px 28px
+      background-position: 64% 20%
+    &__flash
+      margin-bottom: 24px
+      font-size: 14px
+      line-height: 20px
+    &__title
+      margin-bottom: 20px
+      font-size: 48px
+      line-height: 60px
+    &__subtitle
+      margin-bottom: 36px
+      font-size: 18px
+      line-height: 32px
+    &__button
+      margin-bottom: 40px
+      font-size: 18px
+      line-height: 25px
+      &:hover
+        background-color: $title-color
+    &-indicator
+      margin-right: 20px
+      &__text
+        font-size: 16px
+        line-height: 20px
+  .collection
+    margin-bottom: 80px
+    &-wrapper
+      padding: 0 3.85%
+    &__photos
+      margin-bottom: 30px
+    &-info
+      max-width: 100%
+      &__title
+        margin-bottom: 17px
+      &__subtitle
+        margin-bottom: 30px
+  .trending
+    margin-bottom: 38px
+    &-info
+      flex-direction: column
+      align-items: center
+      text-align: center
+      max-width: 366px
+      margin-bottom: 56px
+      &__title
+        margin-bottom: 28px
+    &-tabs
+      &__link
+        &:hover
+          color: $subtitle-color
+    &-store
+      max-width: 608px
+  .card
+    margin-right: 48px
+    max-width: 280px
+    min-width: 0
+    margin-bottom: 48px
+    &:nth-child(2n)
+      margin-right: 0
+    &:nth-child(3n)
+      margin-right: 48px
+    &:nth-child(6n)
+      margin-right: 0
+    &__photo
+      max-width: 280px
+    &-more
+      padding: 120px 84px 104px 84px
+      max-width: 280px
+      min-width: fit-content
+      &:hover
+        background-color: $blue
+  .reviews
+    &-slider
+      max-width: 630px
+      min-height: 415px
+      max-height: none
+  .swiper
+    &-slide
+      &__image
+        margin-bottom: 15px
+      &__text
+        margin-bottom: 36px
+  .stories
+    &-wrapper
+      flex-direction: column
+      align-items: center
+      padding-top: 78px
+    &-info
+      text-align: center
+      margin: 0
+      max-width: 510px
+      margin-bottom: 35px
+      &__flash
+        margin-bottom: 24px
+      &__title
+        margin-bottom: 16px
+      &__subtitle
+        margin-bottom: 33px
+    &-card
+      &__photo
+        width: 322px
+    &-slider
+      max-width: 682px
+      padding-top: 0
+@media ( max-width: 720px )
+  .stories
+    &-slider
+      width: 100%
+    &-card
+      width: 270px
+      &__photo
+        width: 270px
+@media ( max-width: 640px )
+  .trending
+    &-store
+      max-width: 450px
+  .card
+    max-width: 200px
+    &-more
+      max-width: 200px
+      padding: 0 50px
+      min-width: 200px
+  .reviews
+    &-slider
+      max-width: 500px
+      min-height: 450px
+  .stories
+    &-card
+      max-width: 260px
+      &__photo
+        width: 250px
+@media ( max-width: 576px )
+  .hero
+    &-wrapper
+      padding: 30px 190px 30px 28px
+      background-position: 64% 20%
+    &__flash
+      margin-bottom: 24px
+      font-size: 14px
+      line-height: 20px
+    &__title
+      margin-bottom: 20px
+      font-size: 38px
+      line-height: 50px
+    &__subtitle
+      margin-bottom: 36px
+      font-size: 18px
+      line-height: 32px
+    &__button
+      margin-bottom: 40px
+      font-size: 18px
+      line-height: 25px
+    &-indicator
+      margin-right: 20px
+      &__text
+        font-size: 16px
+        line-height: 20px
+  .collection
+    &__photos
+      grid-gap: 20px
+    &-info
+      &__title
+        font-size: 34px
+      &__subtitle
+        font-size: 18px
+    &-info
+      &__title
+        font-size: 20px
+        line-height: 26px
+  .reviews
+    &-slider
+      max-width: 370px
+      min-height: 530px
+  .stories
+    &-card
+      max-width: 220px
+      &__photo
+        width: 200px
+      &-info
+        padding-right: 10px
+  .subscribe
+    &-wrapper
+      padding: 70px 10px
+    &-info
+      margin-right: 0
+      &__subtitle
+        margin-bottom: 40px
+@media ( max-width: 480px )
+  .container
+    max-width: 370px
+  .header
+    margin-bottom: 25px
+    &-wrapper
+      padding: 17px 19px
+  .hero .container
+    width: 100%
+  .hero
+    margin-bottom: 53px
+    &-wrapper
+      display: flex
+      text-align: center
+      padding: 0
+      background-position: 82% 20%
+      background-size: cover
+      border-radius: 0
+      background-repeat: no-repeat
+    &-content
+      background: linear-gradient(rgba(238, 238, 238, 0.01), rgba(232, 234, 233, 1))
+      background-size: contain
+      padding: 379px 20px 20px 20px
+    &__flash
+      margin-bottom: 20px
+      font-size: 14px
+      line-height: 20px
+      padding: 2px 26px
+    &__title
+      margin-bottom: 20px
+      font-size: 32px
+      line-height: 40px
+    &__subtitle
+      margin-bottom: 24px
+      font-size: 16px
+      line-height: 28px
+    &__button
+      padding: 13px 50px
+      margin-bottom: 22px
+      font-size: 16px
+      line-height: 22px
+    &__bottom
+      flex-wrap: wrap
+      justify-content: center
+    &-indicator
+      margin-right: 7px
+      margin-bottom: 18px
+      &__text
+        font-size: 16px
+        line-height: 20px
+      &__image
+        width: 24px
+        height: 24px
+        &::before
+          width: 14px
+          height: 14px
+      &__icon
+        width: 14px
+        height: 14px
+  .navbar
+    &-mobile
+      display: block
+      &--active
+        position: fixed
+        right: 20px
+    &__ul
+      display: flex
+      flex-direction: column
+      width: 84.21%
+      align-items: flex-start
+      text-align: left
+      padding-top: 0
+      padding-bottom: 0
+      margin-bottom: 0
+      margin-top: 33px
+    &__link
+      margin-right: 0
+      font-weight: 600
+      font-size: 18px
+      line-height: 22px
+    &__item
+      margin-bottom: 20px
+    &__button
+      margin-bottom: 36px
+      padding: 9px 86px
+      width: 84.21%
+  .collection
+    margin-bottom: 52px
+    &__photos
+      margin-bottom: 27px
+      grid-gap: 14px
+      grid-template-columns: repeat(2,minmax(138px,390px))
+      grid-template-rows: repeat(3,minmax(97px,205px))
+      &--image
+        &--main
+          grid-column: span 2
+          grid-row: span 2
+        &--secondary
+          grid-column: span 1
+    &-info
+      text-align: center
+      &__title
+        margin-bottom: 14px
+      &__subtitle
+        margin-bottom: 22px
+      &__link
+        display: flex
+        align-items: center
+        justify-content: center
+        font-size: 16px
+  .trending
+    margin-bottom: 29px
+    &-info
+      margin-bottom: 36px
+      &__title
+        font-size: 28px
+        line-height: 36px
+        text-align: center
+        letter-spacing: 0.2px
+        margin-bottom: 24px
+      &__subtitle
+        font-size: 16px
+        line-height: 22px
+    &-tabs
+      &__item
+        margin-right: 16px
+        font-weight: normal
+        font-size: 16px
+        line-height: 22px
+    &-store
+      max-width: 370px
+  .card
+    margin-right: 10px
+    margin-bottom: 20px
+    max-width: 180px
+    min-height: 250px
+    &-more
+      max-width: 180px
+      min-width: 180px
+      min-height: 250px
+      padding: 0
+    &:nth-child(2n)
+      margin-right: 0
+    &:nth-child(3n)
+      margin-right: 10px
+    &:nth-child(6n)
+      margin-right: 0
+    &-info
+      padding: 0
+      &__title
+        font-size: 16px
+        line-height: 20px
+        letter-spacing: 0.2px
+    &__price
+      font-size: 14px
+      line-height: 24px
+      margin-right: 9px
+    &-bottom
+      justify-content: flex-start
+  .swiper
+    &-slide
+      &__image
+        width: 70px
+        height: 80px
+        margin-bottom: 15px
+      &__text
+        margin-bottom: 24px
+        font-size: 18px
+        line-height: 36px
+        letter-spacing: 0.12px
+      &__title
+        max-width: 186px
+        &--name
+          display: block
+        &--prof
+          display: block
+        &::before
+          content: " - "
+  .reviews
+    margin-bottom: 59px
+    &-slider
+      max-width: 280px
+      min-height: 560px
+  .stories
+    &-wrapper
+      padding-top: 47px
+    &-info
+      margin-bottom: 26px
+      &__flash
+        padding: 2px 12px
+      &__title
+        font-size: 28px
+        line-height: 36px
+      &__subtitle
+        font-size: 16px
+        line-height: 28px
+    &-button
+      &__prev
+        padding: 16px
+        padding-bottom: 13px
+      &__next
+        padding: 16px
+        padding-bottom: 13px
+    &-slider
+      max-height: 840px
+    &-card
+      max-width: 280px
+      &__photo
+        width: 270px
+        height: 277px
+      &-info
+        padding: 20px
+        min-height: 163px
+        &__title
+          font-size: 20px
+          line-height: 24px
+          margin-bottom: 15px
+  .swiper
+    &-slide
+      width: 96%
+  .subscribe
+    &-form
+      &__input
+        max-width: 60%
+        min-width: 0
+      &__button
+        padding: 8px 15px
+        font-size: 14px
+@media ( max-width: 408px )
+  .hero
+    &-wrapper
+      background-position: 79% 20%
+@media ( max-width: 390px )
+  .hero
+    &-wrapper
+      background-image: url(../img/hero-mobile.jpg)
+  .trending
+    &-store
+      max-width: 290px
+  .card
+    max-width: 140px
+    max-height: 234px
+    min-height: 234px
+    &-more
+      max-width: 140px
+      min-width: 140px
+      max-height: 170px
+      min-height: 170px
+      padding-top: 40px
+      &-info
+        &__title
+          font-size: 20px
+          line-height: 24px
+    &__photo
+      width: 140px
+      height: 170px
+      margin-bottom: 13px
+    &__icon
+      width: 14px
+      height: 13px
+@media ( max-width: 320px )
+  .hero
+    &-wrapper
+      display: flex
+      text-align: center
+      padding: 0
+      background-position: 1% 20%
+      background-size: cover
+  .navbar
+    &-mobile
+      &--active
+        right: 36px
+  .collection
+    &-wrapper
+      padding: 11px
+    &__photos
+      display: flex
+      flex-wrap: wrap
+      grid-gap: 14px
+      grid-template-columns: repeat(2,minmax(138px,390px))
+      grid-template-rows: repeat(3,minmax(97px,97px))
+      &--image
+        &--main
+          width: 290px
+          height: 300px
+          grid-column: span 2
+          grid-row: span 2
+        &--secondary
+          width: 138px
+          height: 97px
+          grid-column: span 1
+    &-info
+      text-align: center
+      &__title
+        font-size: 28px
+        line-height: 36px
+      &__subtitle
+        font-size: 16px
+        line-height: 28px
+
+    
