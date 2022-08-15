@@ -1,4 +1,6 @@
 @media  ( max-width: 1200px )
+  .container
+    max-width: 1110px
   .reviews
     &-slider
       max-width: 800px
@@ -8,6 +10,11 @@
     max-width: 952px
   .header
     margin-bottom: 30px
+  .navbar
+    &__button
+      padding: 8px 20px
+    &__link
+      margin-right: 25px
   .hero
     &-wrapper
       padding: 62px 371px 54px 70px
@@ -49,6 +56,12 @@
       margin-right: 20px
       &__subtitle
         margin-bottom: 56px   
+@media ( max-width: 790px )
+  .card
+    &:nth-child(3n)
+      margin-right: 50px
+      
+
 @media ( max-width: 768px )
   .container
     max-width: 728px
@@ -62,13 +75,14 @@
       display: block
       &--active
         position: fixed
-        right: 6.87%
+        right: 6%
     &__ul
       display: flex
       flex-direction: column
       align-items: center
       text-align: center
-      padding-bottom: 0
+      padding: 0
+      margin-left: 0
     &__link
       margin-right: 0
       font-weight: 600
@@ -350,7 +364,7 @@
       display: block
       &--active
         position: fixed
-        right: 20px
+        right: 70px
     &__ul
       display: flex
       flex-direction: column
@@ -514,6 +528,12 @@
       &__button
         padding: 8px 15px
         font-size: 14px
+@media ( max-width: 460px )
+  .navbar
+    &-mobile
+      &--active
+        right: 12%
+  
 @media ( max-width: 408px )
   .hero
     &-wrapper
@@ -522,6 +542,10 @@
   .hero
     &-wrapper
       background-image: url(../img/hero-mobile.jpg)
+  .navbar
+    &-mobile
+      &--active
+        right: 8%
   .trending
     &-store
       max-width: 290px
